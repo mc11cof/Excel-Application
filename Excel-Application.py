@@ -59,8 +59,8 @@ table.tableStyleInfo = style
 #Adding the newly created table to the sheet
 sheet.add_table(table)
 
-#Defining the font (red, bold, italic) for salary > 55000
-font = Font(color = "FF5733", bold = True, italic = True)
+#Defining the font (red in hex color code, bold, italic) for salary > 55000
+font = Font(color = "FF333F", bold = True, italic = True)
 
 #Applying the font settings to the cells that meet the condition salary > 55000
 for cell_no in range(2, 12):
